@@ -1,5 +1,4 @@
-# portfolio-frontend
-Portfolio-frontend
+# Portfolio
 
 Made with love and VueJS
 
