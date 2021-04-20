@@ -1,0 +1,73 @@
+@media screen and (max-width: 800px) {
+	.mediasm {display: none;}
+	.col-sm-10 {flex: none; max-width: none;}
+	.mediasm-content {margin-left: 0;}
+}
+
+.title-el {
+    font-weight: bold;
+}
+
+.xp {
+    float: left;
+}
+
+/* Noir et blanc */
+.grayscale div img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.grayscale div:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.experiences_list {
+	text-align: justify;
+}
+
+.item_title {
+	font-weight: bold;
+}
+.item_list {
+	margin-bottom: 1.3em;
+}
+
+.item_describe {
+	margin-left: 1.3em;
+	text-align: justify;
+}
+
+.item_describe:hover {
+	color: #004085;
+}
+
+.zoom div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom div:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.logo {
+	margin-left: 2em;
+}
+
+.logo img {
+	padding-left: 2em;
+}
+
+.sub-title {
+	margin-left: 2em;
+}
+
+#trade {
+	margin-left: 2em;
+	font-weight: bold;
+}

@@ -1,0 +1,38 @@
+@media screen and (max-width: 800px){ 
+    #colcount {column-count: 1;}
+}
+
+.readmore{
+    float: right;
+}
+
+.modal-content {
+    width: 200%;
+    margin-left: -200px;
+}
+
+.posts-list {
+    list-style-type: none;
+}
+
+.jumbotron {
+    height: 600px;
+    overflow-y: scroll;
+    .header {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .lead {
+        font-style: oblique;
+        font-size: small;
+        
+    }
+    .p-justify {
+    text-align: justify;
+}
+}
+@media screen and (min-width: 805px){ 
+#colcount {
+    column-count: 2;
+}
+}
