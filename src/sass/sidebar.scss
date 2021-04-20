@@ -1,0 +1,20 @@
+#sidebar {
+    float: left;
+    line-height: 1.5em;
+    padding-right: 0em;
+    margin-top: 1.5em;
+    list-style: none;
+    box-shadow: 12px 1px 1px 1px rgba(0, 0, 255, .2);
+
+
+    li {
+        text-align: left;
+        border: 1px solid grey;
+        padding: 1.5em;
+    }
+
+    li:hover {
+        cursor: pointer;
+        background-color: #07B0E0;
+    }
+}

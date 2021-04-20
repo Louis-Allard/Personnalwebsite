@@ -1,0 +1,42 @@
+#app {
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #707070;
+  margin: 1em;
+}
+/**********************************/
+/********** FRONTEND *************/
+/********************************/
+
+hr {
+  background-color: white;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.3em;
+  float: left;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 1em;
+  float: left;
+}
+.container {
+  background-color: #f3f3f3;
+  max-width: 95% !important;
+}
+
+b {
+  color: #004085;
+}

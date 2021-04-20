@@ -1,0 +1,33 @@
+@media screen and (max-width:800px){
+    .mediasmall {column-count: 1;}
+}
+
+
+
+.card-title {
+    color: grey;
+}
+
+.card-text {
+    color: grey;
+}
+
+.card-img-top {
+    height: 100px;
+}
+
+.article {
+    max-width: 20rem !important;
+    font-size: 0.9em !important;
+    box-shadow: 1px 1px 0.5px 3px #0299c2;
+    height: 500px;
+    margin-bottom: 2rem;
+}
+
+.article:hover {
+    box-shadow: 3px 3px 3px 5px #0299c2;
+}
+
+.title {
+    text-align: left;
+}

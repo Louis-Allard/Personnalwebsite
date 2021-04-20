@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 800px) {
+    .consollog {font-size: small;} 
+    .version {float: none;}
+}
+
+.version {
+    float:right;
+}
+
+.container_footer {
+    background-color: #02a1cc;
+    max-width: 95% !important;
+    color: white;
+    border: 1px solid #6093a1;
+  }
+
+.col {
+      margin: 0.5em;
+  }
+ 
+.contact_title {
+    text-align: left;
+}
+
+
+.btn-cv_footer {
+    float: right;
+    margin-left: 5em;
+    color:white !important;
+    background-color: #02a1cc !important;
+    border: none !important;
+}
+
+.btn-cv_footer a{
+    color:white !important;
+    font-size: 0.8em;
+}
