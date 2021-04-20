@@ -64,7 +64,8 @@ const cv = {
     datetraining:     "2019",
     titletraining:    "Développeur Web Javascript : Wild Code School de Lille",
     describetraining: "Apprentissage de Javascript, de Node.Js et de React.Js.",
-    describetraining2:"Conception de sites internets dans le cadre des projets professionnels, réalisés en équipe via l'intégration des méthodes agiles de gestion de projet."
+    describetraining2:"Conception de sites internets dans le cadre des projets professionnels, réalisés en équipe via l'intégration des méthodes agiles de gestion de projet.",
+    titlepopover:     "Languages utilisés"
 }
 
 const portfolio = {
