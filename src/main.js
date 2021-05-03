@@ -12,7 +12,7 @@ Vue.use(VuePageTransition);
 
 Vue.use(VueAnalytics, {
     id: 'G-8TQ1FSX5QZ',
-    router
+    checkDuplicatedScript: true
 })
 
 new Vue({
