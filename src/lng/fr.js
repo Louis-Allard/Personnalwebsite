@@ -6,7 +6,7 @@ const navbar = {
 }    
 
 const footer = {
-    title:         "console.log('© 2019 Copyright: Portfolio by Louis Allard');",
+    title:         "console.log('© 2019 Copyright: Portfolio by Louis Allard - Made with love and VueJS');",
     contact_title: "Contactez-moi:"
 }
 const main = {
