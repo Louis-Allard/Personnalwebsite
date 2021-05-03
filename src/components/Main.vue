@@ -288,17 +288,12 @@
         </b-col>
       </b-row>
     </b-container>
-
-    <div class="mediasm">
-      <Portfolio />
-    </div>
     <FooterNetwork />
   </div>
 </template> 
 
 <script>
 import { main } from "../lng/fr";
-import Portfolio from "./Portfolio.vue";
 import FooterNetwork from "./FooterNetwork.vue";
 import "../sass/main.scss";
 
@@ -312,7 +307,6 @@ export default {
     };
   },
   components: {
-    Portfolio,
     FooterNetwork
   },
 };

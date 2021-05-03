@@ -6,7 +6,7 @@ const navbar = {
 }    
 
 const footer = {
-    title:         "console.log('© 2019 Copyright: Portfolio by Louis Allard');",
+    title:         "console.log('© 2019 Copyright: Portfolio by Louis Allard - Made with love and VueJS');",
     contact_title: "Contactez-moi:"
 }
 const main = {
@@ -73,7 +73,7 @@ const portfolio = {
     seemore:       "Aller voir",
     project01desc: "Petit projet personnel réalisé en quelques heures. Un classique du jeux vidéo; developpé par Allan Alcorn et commercialisé la première fois en 1972, il fut l'un des premier jeux vidéos Arcade commercialisé.",
     project01st:   "Pong a été développé en JavaScript Vanilla avec la librairie CANVAS.",
-    project02desc: "Réalisé en équipe de 5 sur une période de deux mois durant ma formation, Watcha utilise une API permettant de récupérer des données de films. Il permet de retrouver un film par son titre; cliquer sur un acteur renvoi à la liste de ses films.",
+    project02desc: "Watcha utilise une API permettant de récupérer des données de films. Il permet de retrouver un film par son titre; cliquer sur un acteur renvoi à la liste de ses films.",
     project02st:   "Outre l'API, Watcha a été développé en React.JS.",
     project03desc: "EasterEggFight est le projet de mon premier hackathon, j'ai réalisé ce jeu de carte. Sur une durée de 24h, moi et mon équipe avons obtenir ce résultat, alors que 1 mois auparavant nous n'avions presque jamais touché à une ligne de code.",
     project03st:   "Cette application a été réalisé en JavaScript avec React.JS",
