@@ -24,6 +24,7 @@
               <b-button
                 class="btn-cv"
                 href="/calc"
+                router-component-name="Calc"
                 target="_parent"
                 >{{ portfolio.seemore }}</b-button
               > </b-card
