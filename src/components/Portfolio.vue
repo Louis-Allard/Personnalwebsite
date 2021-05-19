@@ -23,11 +23,10 @@
               </b-card-text>
               <b-button
                 class="btn-cv"
-                href="/calc"
-                router-component-name="Calc"
                 target="_parent"
-                >{{ portfolio.seemore }}</b-button
-              > </b-card
+                ><router-link :to="{ name: 'Calc'}">{{ portfolio.seemore }}</router-link></b-button
+              > 
+              </b-card
             >"
           </b-col>
 
