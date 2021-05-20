@@ -36,7 +36,7 @@
             ><br />
             <p style="margin-top:20px">
               <b-button variant="info"
-                ><a :href="pdfLink" download="cv.pdf">pdf</a></b-button
+                ><a href="../../../public/cv.pdf" download="cv.pdf">pdf</a></b-button
               >
             </p>
           </div>
@@ -415,7 +415,6 @@ export default {
   name: "Cv",
   data() {
     return {
-      pdfLink: require("@/rsrc/cv.pdf"),
       cv,
       experiences: [],
       trainings: [],
