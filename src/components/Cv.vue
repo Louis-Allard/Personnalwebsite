@@ -36,7 +36,7 @@
             ><br />
             <p style="margin-top:20px">
               <b-button variant="info"
-                ><a href="../../public/cv.pdf" download="cv.pdf">Télécharger le cv en pdf</a></b-button
+                ><a href="../../public/cv.pdf" download="cv_louisallard.pdf">Télécharger le cv en pdf</a></b-button
               >
             </p>
           </div>
