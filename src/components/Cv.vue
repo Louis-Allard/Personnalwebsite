@@ -35,8 +35,10 @@
             <span id="trade">{{ cv.trade }}</span
             ><br />
             <p style="margin-top:20px">
-              <b-button variant="info"
-                ><a href="../../public/cv.pdf" download="cv_louisallard.pdf">Télécharger le cv en pdf</a></b-button
+              ><a
+                href="https://cvdesignr.com/p/5e415998a2cbb?hl=fr_FR"
+                target="_blank"
+                ><b>Télécharger mon cv en pdf</b></a
               >
             </p>
           </div>
