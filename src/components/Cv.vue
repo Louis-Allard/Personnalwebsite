@@ -32,7 +32,15 @@
                 {{ cv.adress }}
               </li>
             </ul>
-            <span id="trade">{{ cv.trade }}</span>
+            <span id="trade">{{ cv.trade }}</span
+            ><br />
+            <p style="margin-top:20px">
+              ><a
+                href="https://cvdesignr.com/p/5e415998a2cbb?hl=fr_FR"
+                target="_blank"
+                ><b>Télécharger mon cv en pdf</b></a
+              >
+            </p>
           </div>
         </b-col>
       </b-row>
@@ -103,16 +111,20 @@
         <li class="item_list">
           <span class="item_title">{{ cv.datexp04 }} {{ cv.titlexp04 }}</span>
           <br />
-                  <div class="item_describe">
-          <div class="my-3">
-            <span id="popover-target-3">{{ cv.describexp04 }}</span>
-              <b-popover target="popover-target-3" triggers="hover" placement="top">
-                <template #title>{{ cv.titlepopover}}</template>
+          <div class="item_describe">
+            <div class="my-3">
+              <span id="popover-target-3">{{ cv.describexp04 }}</span>
+              <b-popover
+                target="popover-target-3"
+                triggers="hover"
+                placement="top"
+              >
+                <template #title>{{ cv.titlepopover }}</template>
                 <img src="../assets/php.png" title="PhP" alt="PhP" />&nbsp;
                 <img src="../assets/php.png" title="PhP" alt="PhP" />
-               </b-popover>
+              </b-popover>
+            </div>
           </div>
-        </div>
         </li>
         <li class="item_list">
           <span class="item_title">{{ cv.datexp05 }} {{ cv.titlexp05 }}</span>
@@ -413,14 +425,14 @@ export default {
         "Littérature",
         "Musique",
         "Informatique",
-        "Airsoft",
-      ],
+        "Airsoft"
+      ]
     };
   },
   components: {},
   methods: {
     load_experiences() {
-      axios.get("http://localhost:8081/cv").then((response) => {
+      axios.get("http://localhost:8081/cv").then(response => {
         for (let i = 0; i < response.data.length; i++) {
           this.experiences.push(response.data[i]);
           this.experiences = this.experiences.reverse();
@@ -428,16 +440,16 @@ export default {
       });
     },
     load_training() {
-      axios.get("http://localhost:8081/training").then((response) => {
+      axios.get("http://localhost:8081/training").then(response => {
         for (let i = 0; i < response.data.length; i++) {
           this.trainings.push(response.data[i]);
         }
       });
-    },
+    }
   },
   mounted() {
     this.load_experiences();
     this.load_training();
-  },
+  }
 };
 </script>
