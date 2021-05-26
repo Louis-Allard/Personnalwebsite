@@ -1,15 +1,16 @@
 .main {
-    width: 100%;
+    width: 98%;
     height: 600px;
-}
-
-.widget {
-    //float: right;
+    margin: 30px auto auto auto;
 }
 
 .title-widget{
     display: block;
-    width:40%;
+    width:37%;
     height: 600px;
     float: left;
+    border-radius: 15px;
+    background-image: url("../assets/twitter-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }

@@ -1,6 +1,6 @@
 <template>
 <div class="main">
-<div class="title-widget">Follow me ==></div>
+<div class="title-widget"></div>
   <twitter class="widget">
     <a
       class="twitter-timeline"

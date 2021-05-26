@@ -1,6 +1,5 @@
 <template>
   <div>
-        <Widget />
     <b-container fluid class="p-4 container">
       <div id="colcount">
         <li class="posts-list">
@@ -117,6 +116,7 @@
         </li>
       </div>
     </b-container>
+    <Widget />
   </div>
 </template>
 
