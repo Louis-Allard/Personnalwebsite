@@ -1,6 +1,6 @@
 {
   "name": "portfolio-vue",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "author": "Louis Allard",
   "description": "My new professionnal website",
   "private": true,
@@ -34,7 +34,11 @@
     "vue-page-transition": "^0.2.2",
     "vue-router": "^3.1.6",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vue-twitter": "^0.1.0"
+  },
+  "resolutions": {
+    "chokidar": "^3.4.0"
   },
   "eslintConfig": {
     "root": true,
