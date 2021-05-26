@@ -1,6 +1,6 @@
 <template>
   <twitter>
-    <<a
+    <a
       class="twitter-timeline"
       data-lang="fr"
       data-width="300"
@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import twitter from "vue-twitter";
 export default {
   name: "Widget",
   data() {
