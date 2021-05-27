@@ -3,6 +3,7 @@
     <b-container fluid class="p-4 container">
       <b-row>
         <b-col sm="8">
+          
           <div class="content mediasm-content">
             <span class="job">{{ main.job_title }}</span>
             <h1>{{ main.job_name }}</h1>
@@ -13,6 +14,7 @@
               <p class="text" v-html="main.job_ccl">{{ main.job_ccl }}</p>
             </div>
           </div>
+          
         </b-col>
         <b-col sm="4">
           <div>

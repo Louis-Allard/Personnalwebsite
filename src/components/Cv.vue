@@ -43,6 +43,17 @@
             </p>
           </div>
         </b-col>
+
+        <b-col>
+          <div class="content mediasm-content">
+            <div class="alltxt">
+              <p class="text" v-html="cv.job_content">
+                {{ cv.job_content }}
+              </p>
+              <p class="text" v-html="cv.job_ccl">{{ cv.job_ccl }}</p>
+            </div>
+          </div>
+        </b-col>
       </b-row>
       <hr />
       <b-row>
