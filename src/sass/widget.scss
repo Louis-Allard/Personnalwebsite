@@ -4,7 +4,7 @@
     margin: 30px auto auto auto;
 }
 
-.title-widget{
+.title-widget {
     display: block;
     width:37%;
     height: 600px;
@@ -13,4 +13,8 @@
     background-image: url("../assets/twitter-logo.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media screen and (max-width: 415px){ 
+	.title-widget  {display: none;}
 }

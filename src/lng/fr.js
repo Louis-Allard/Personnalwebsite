@@ -23,7 +23,7 @@ const main = {
     job_ccl:                "Vous trouverez toutes mes coordonnées dans la page <b>Mon parcours</b>, n'hésitez pas a me contacter par téléphone, par mail ou via mes différents réseaux sociaux.",
     experiences_title:      "COMPETENCES TECHNIQUES",
     experiences_sub_title:  "<b>Experience & Rigueur</b>",
-    xp_content:              "Véritable passionné d'informatique sous toutes ses formes, de la machine jusqu'à la création de commandes et de développement de sites web, chacun de mes projets est traité comme un véritable challenge pour lequel je cherche toujours à opter pour les meilleures stratégies de développement qui répondront aux attentes de mes clients.",
+    xp_content:              "<p>Véritable passionné d'informatique sous toutes ses formes, de la machine jusqu'à la création de commandes et de développement de sites web, chacun de mes projets est traité comme un véritable challenge pour lequel je cherche toujours à opter pour les meilleures stratégies de développement qui répondront aux attentes de mes clients.</p><p>En ce qui concerne ma stack technique, je suis plus spécialisé en <b>Javascript</b>, utilisant aisement les frameworks <b>VueJS</b> et <b>ReactJS</b>, ainsi que le <b>NodeJS</b> et <b>MySQL</b>pour le backend, bien entendu le html et le css n'ont plus de secret pour moi. Je peux également facilement connecter, voir créer , des apis a vos systeme.</p><p>Enfin, je suis parfaitement au fait des méthodes de travail en équipe, ayant l'habitude de la méthode <b>Agile</b> et des outils collaboratifs tel que Github/GitLab/Git etc. En outre, vous trouverez ci-contre les différents languages et outils avec lesquels je peux travailler</p>",
     xp_name:                 "<b>Experience & Rigueur</b>",    
 }
 

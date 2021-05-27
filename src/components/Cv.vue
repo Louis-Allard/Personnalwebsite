@@ -6,15 +6,7 @@
           <div class="grayscale">
             <div>
               <div>
-                <b-img
-                  thumbnail
-                  rounded
-                  left
-                  fluid
-                  :src="require('../assets/me_color.jpg')"
-                  alt="Profile"
-                  class="profile mediasm"
-                ></b-img>
+                <img src="../assets/me_color.jpg" alt="Photo" class="profile" />
               </div>
             </div>
           </div>
@@ -34,13 +26,14 @@
             </ul>
             <span id="trade">{{ cv.trade }}</span
             ><br />
-            <p style="margin-top:20px">
-              ><a
+            <div style="margin-top:20px">
+              >
+              <a
                 href="https://cvdesignr.com/p/5e415998a2cbb?hl=fr_FR"
                 target="_blank"
                 ><b>Télécharger mon cv en pdf</b></a
               >
-            </p>
+            </div>
           </div>
         </b-col>
 

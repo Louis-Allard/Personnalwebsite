@@ -3,7 +3,6 @@
     <b-container fluid class="p-4 container">
       <b-row>
         <b-col sm="8">
-          
           <div class="content mediasm-content">
             <span class="job">{{ main.job_title }}</span>
             <h1>{{ main.job_name }}</h1>
@@ -14,19 +13,14 @@
               <p class="text" v-html="main.job_ccl">{{ main.job_ccl }}</p>
             </div>
           </div>
-          
         </b-col>
         <b-col sm="4">
-          <div>
-            <b-img
-              thumbnail
-              rounded
-              left
-              fluid
-              :src="require('../assets/me_color.jpg')"
-              alt="Profile"
-              class="profile mediasm"
-            ></b-img>
+          <div class="shine">
+            <div>
+              <div>
+                <img src="../assets/me_color.jpg" alt="Photo" class="profile mediasm" />
+              </div>
+            </div>
           </div>
         </b-col>
       </b-row>
@@ -276,14 +270,12 @@
             </b-col>
             <b-col>
               <div class="rounded">
-                <div>
-                </div>
+                <div></div>
               </div>
             </b-col>
             <b-col>
               <div class="rounded">
-                <div>
-                </div>
+                <div></div>
               </div>
             </b-col>
           </b-row>
@@ -292,7 +284,7 @@
     </b-container>
     <FooterNetwork />
   </div>
-</template> 
+</template>
 
 <script>
 import { main } from "../lng/fr";
@@ -305,11 +297,11 @@ export default {
     return {
       main,
       main_text: [],
-      xp_text: [],
+      xp_text: []
     };
   },
   components: {
     FooterNetwork
-  },
+  }
 };
 </script>
