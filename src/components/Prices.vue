@@ -1,7 +1,11 @@
 <template>
-  <div>
-      Hello World
-  </div>
+<b-container class="bv-example-row">
+  <b-row>
+    <b-col>Site vitrine</b-col>
+    <b-col>Site de vente</b-col>
+    <b-col>Offre complete</b-col>
+  </b-row>
+</b-container>
 </template>
 
 <script>
