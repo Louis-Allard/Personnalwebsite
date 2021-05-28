@@ -2,7 +2,8 @@ const navbar = {
     name:        "Développeur de solutions",
     cv:          "Mon parcours",
     blog:        "Mon blog",
-    projects:    "Mes projets"
+    projects:    "Mes projets",
+    prices:      "Mes tarifs"
 }    
 
 const footer = {

@@ -6,6 +6,7 @@
     <b-collapse id="nav-collapse" is-nav right>
       <b-navbar-nav class="ml-auto">
         <b-nav-item class="nav-link"><router-link :to="{ name: 'Cv'}">{{ navbar.cv }}</router-link></b-nav-item>
+        <b-nav-item class="nav-link"><router-link :to="{ name: 'Prices'}">{{ navbar.prices}}</router-link></b-nav-item>
         <b-nav-item class="nav-link"><router-link :to="{ name: 'Portfolio'}">{{ navbar.projects}}</router-link></b-nav-item>
         <b-nav-item class="nav-link"><router-link :to="{ name: 'Blog'}">{{ navbar.blog }}</router-link></b-nav-item>
       </b-navbar-nav>
