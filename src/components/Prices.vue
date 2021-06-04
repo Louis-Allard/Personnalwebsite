@@ -2,52 +2,52 @@
   <b-container class="bv-example-row">
     <b-row>
       <b-col>&nbsp;</b-col>
-      <b-col>{{ prices.title01 }}</b-col>
-      <b-col>{{ prices.title02 }}</b-col>
-      <b-col>{{ prices.title03 }}</b-col>
-      <b-col>{{ prices.title04 }}</b-col>
+      <b-col class="title">{{ prices.title01 }}</b-col>
+      <b-col class="title">{{ prices.title02 }}</b-col>
+      <b-col class="title">{{ prices.title03 }}</b-col>
+      <b-col class="title">{{ prices.title04 }}</b-col>
     </b-row>
     <b-row>
-      <b-col>{{ prices.el01 }}</b-col>
-      <b-col>Y</b-col>
-      <b-col>Y</b-col>
-      <b-col>Y</b-col>
-      <b-col>Y</b-col>
+      <b-col class="elements">{{ prices.el01 }}</b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
     </b-row>    
     <b-row>
-      <b-col>{{ prices.el02 }}</b-col>
-      <b-col>N</b-col>
-      <b-col>Y</b-col>
-      <b-col>Y</b-col>
-      <b-col>Y</b-col>
+      <b-col class="elements">{{ prices.el02 }}</b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
     </b-row>     
     <b-row>
-      <b-col>{{ prices.el03 }}</b-col>
-      <b-col>N</b-col>
-      <b-col>N</b-col>
-      <b-col>Y</b-col>
-      <b-col>Y</b-col>
+      <b-col class="elements">{{ prices.el03 }}</b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
     </b-row>
     <b-row>
-      <b-col>{{ prices.el04 }}</b-col>
-      <b-col>N</b-col>
-      <b-col>N</b-col>
-      <b-col>Y</b-col>
-      <b-col>Y</b-col>
+      <b-col class="elements">{{ prices.el04 }}</b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
     </b-row>        
     <b-row>
-      <b-col>{{ prices.el05 }}</b-col>
-      <b-col>N</b-col>
-      <b-col>N</b-col>
-      <b-col>Y</b-col>
-      <b-col>Y</b-col>
+      <b-col class="elements">{{ prices.el05 }}</b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
     </b-row>
     <b-row>
-      <b-col>{{ prices.el06 }}</b-col>
-      <b-col>N</b-col>
-      <b-col>N</b-col>
-      <b-col>N</b-col>
-      <b-col>Y</b-col>
+      <b-col class="elements">{{ prices.el06 }}</b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/no.png" /></b-col>
+      <b-col><img src="../assets/yes.png" /></b-col>
     </b-row>       
   </b-container>
 </template>
