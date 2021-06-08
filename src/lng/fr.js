@@ -135,7 +135,7 @@ const prices = {
     el06:             "Création et gestion de serveurs",
     el07:             "Création de maquette",
     titleJumbotron:   "Menu",
-    pJumbotron:       "Quel est votre projet ? Un site vitrine ? Un site de vente ? Ce tableau vous aidera a choisir. Contactez-moi au 07 68 82 69 67 pour plus d'information."
+    pJumbotron:       "Quel est votre projet ? Un site vitrine ? Un site de vente ? Ce tableau vous aidera a choisir. Contactez-moi via mes réseaux sociaux pour plus d'informations ou par mail (la.devweb@yahoo.com) pour plus d'informations."
 }
 
 export { navbar, footer, main, cv, portfolio, blog, prices };
