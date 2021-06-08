@@ -5,6 +5,7 @@ import Cv from '../components/Cv'
 import Portfolio from '../components/Portfolio'
 import Blog from '../components/Blog'
 import Calc from '../components/Calc'
+import Prices from '../components/Prices'
 
 Vue.use(VueRouter);
 
@@ -43,7 +44,10 @@ export default new VueRouter({
       alias: 'calc' 
     }, 
     {
-      path: '/validate_main',
+      path: '/prices',
+      component: Prices,
+      name: 'Prices',
+      alias: 'prices' 
     },
 
   ],

@@ -1,0 +1,37 @@
+.title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.elements {
+    text-align: left;
+    font-weight: bold;
+}
+
+.validate {
+    width: 30px;
+    height: 30px;
+}
+
+.prices {
+    margin-top: 20px;
+}
+
+#title-row {
+    border-bottom: 3px dotted grey;
+}
+
+.row-price {
+    border-bottom: 1px solid grey;
+}
+
+.board {
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px dotted grey;
+}
+
+.board-title {
+    font-weight: bold;
+}

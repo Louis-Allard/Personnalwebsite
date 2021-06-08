@@ -413,7 +413,6 @@
 
 <script>
 import { cv } from "../lng/fr";
-import axios from "axios";
 import "../sass/cv.scss";
 import "../sass/main.scss";
 
@@ -435,25 +434,8 @@ export default {
   },
   components: {},
   methods: {
-    load_experiences() {
-      axios.get("http://localhost:8081/cv").then(response => {
-        for (let i = 0; i < response.data.length; i++) {
-          this.experiences.push(response.data[i]);
-          this.experiences = this.experiences.reverse();
-        }
-      });
-    },
-    load_training() {
-      axios.get("http://localhost:8081/training").then(response => {
-        for (let i = 0; i < response.data.length; i++) {
-          this.trainings.push(response.data[i]);
-        }
-      });
-    }
   },
   mounted() {
-    this.load_experiences();
-    this.load_training();
   }
 };
 </script>

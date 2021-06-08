@@ -1,0 +1,174 @@
+[
+    {
+        "id": "0",
+        "title": "Site vitrine",
+        "Price": "2000",
+        "img": "",
+        "maquette": {
+                "title": "Création de maquette",
+                "description": "Proposition de trois maquettes",
+                "etat":   true
+            },
+        "frontend": {
+                "title": "Frontend",
+                "description": "",
+                "etat": true
+            },
+        "backend": {
+            "title": "Backend",
+            "description": "",
+            "etat": false
+        },
+        "api": {
+            "title": "Gestion api",
+            "description": "",
+            "connect": false,
+            "etat": false
+        },   
+        "payement": {
+            "title": "Gestion de payement",
+            "description": "",
+            "etat": false
+        },  
+        "panier": {
+            "title": "Panier",
+            "description": "Gestion de panier",
+            "etat": false
+        },                         
+        "serveur": {
+            "title": "Serveur",
+            "description": "Création et gestion des serveurs",
+            "etat": false
+        }
+        
+    },
+    {
+        "id": "1",
+        "title": "Site vitrine +",
+        "Price": "3500",
+        "img": "",
+        "maquette": {
+                "title": "Création de maquette",
+                "description": "Création de maquette sur mesure",
+                "etat":   true
+            },
+        "frontend": {
+                "title": "Frontend",
+                "description": "",
+                "etat": true
+            },
+        "backend": {
+            "title": "Backend",
+            "description": "",
+            "etat": true
+        },
+        "api": {
+            "title": "Gestion api",
+            "description": "",
+            "connect": false,
+            "etat": false
+        },   
+        "payement": {
+            "title": "Gestion de payement",
+            "description": "",
+            "etat": false
+        },  
+        "panier": {
+            "title": "Panier",
+            "description": "Gestion de panier",
+            "etat": false
+        },         
+        "serveur": {
+            "title": "Serveur",
+            "description": "Création et gestion des serveurs",
+            "etat": true
+        }
+        
+    },
+    {
+        "id": "3",
+        "title": "Site shop",
+        "Price": "6000",
+        "img": "",
+        "maquette": {
+                "title": "Création de maquette",
+                "description": "Création de maquette sur mesure",
+                "etat":   true
+            },
+        "frontend": {
+                "title": "Frontend",
+                "description": "",
+                "etat": true
+            },
+        "backend": {
+            "title": "Backend",
+            "description": "",
+            "etat": true
+        },
+        "api": {
+            "title": "Gestion api",
+            "description": "",
+            "connect": false,
+            "etat": true
+        },   
+        "payement": {
+            "title": "Gestion de payement",
+            "description": "",
+            "etat": true
+        },  
+        "panier": {
+            "title": "Panier",
+            "description": "Gestion de panier",
+            "etat": true
+        },         
+        "serveur": {
+            "title": "Serveur",
+            "description": "Création et gestion des serveurs",
+            "etat": false
+        }
+        
+    },
+    {
+        "id": "4",
+        "title": "Site shop +",
+        "Price": "10 000",
+        "img": "",
+        "maquette": {
+                "title": "Création de maquette",
+                "description": "Création de maquette sur mesure",
+                "etat":   true
+            },
+        "frontend": {
+                "title": "Frontend",
+                "description": "",
+                "etat": true
+            },
+        "backend": {
+            "title": "Backend",
+            "description": "",
+            "etat": true
+        },
+        "api": {
+            "title": "Gestion api",
+            "description": "",
+            "connect": true,
+            "etat": true
+        },   
+        "payement": {
+            "title": "Gestion de payement",
+            "description": "",
+            "etat": true
+        },  
+        "panier": {
+            "title": "Panier",
+            "description": "Gestion de panier",
+            "etat": true
+        },         
+        "serveur": {
+            "title": "Serveur",
+            "description": "Création et gestion des serveurs",
+            "etat": true
+        }
+        
+    }            
+]
