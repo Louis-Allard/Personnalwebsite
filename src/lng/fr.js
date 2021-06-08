@@ -132,7 +132,10 @@ const prices = {
     el03:             "Gestion d'api",
     el04:             "Gestion de payement",
     el05:             "Gestion de panier",
-    el06:             "Création et gestion de serveurs"
+    el06:             "Création et gestion de serveurs",
+    el07:             "Création de maquette",
+    titleJumbotron:   "Menu",
+    pJumbotron:       "Quel est votre projet ? Un site vitrine ? Un site de vente ? Ce tableau vous aidera a choisir. Contactez-moi au 07 68 82 69 67 pour plus d'information."
 }
 
 export { navbar, footer, main, cv, portfolio, blog, prices };
