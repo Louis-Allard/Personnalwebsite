@@ -3,7 +3,7 @@ const navbar = {
     cv:          "Mon parcours",
     blog:        "Mon blog",
     projects:    "Mes projets",
-    prices:      "Mes tarifs"
+    prices:      "Quel site ?"
 }    
 
 const footer = {
