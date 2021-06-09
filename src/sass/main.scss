@@ -121,9 +121,10 @@
     .rounded div img {
         -webkit-transition: .3s ease-in-out !important; 
         transition: .3s ease-in-out !important; 
+        box-shadow: 2px 2px 0px #aaa;
     }
     .rounded div:hover img:hover {
-        border-radius: 50%; 
+        border-radius: 30%; 
     }
 
 
