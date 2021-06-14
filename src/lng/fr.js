@@ -50,7 +50,7 @@ const cv = {
     softkills:        "Mes centres d'intérêts",
     datexp01:         "2020",
     titlexp01:        "Développeur web",
-    describexp01:     "Développeur web chez Slaask.",
+    describexp01:     "Développeur web chez Slaask: www.xenoapp.com. Conception de features sur les chatbox.",
     datexp02:         "2019",
     titlexp02:        "Développeur web stagiaire",
     describexp02:     "Stagiaire en développement web chez Slaask.",
@@ -59,7 +59,7 @@ const cv = {
     describexp03:     "Entreprise de formations technique à destination des professionnels.",
     datexp04:         "2011-2015",
     titlexp04:        "Développeur web PHP",
-    describexp04:     "Développeur web PHP à Trenois Decamps",
+    describexp04:     "Développeur web PHP à Trenois Decamps. Création du site www.trenois.com, frontend et backend en php/mysql. Création également du site intranet et création du site de recrutement www.recrutement-trenois.com",
     datexp05:         "2013-2017",
     titlexp05:        "Coordinateur de région",
     describexp05:     "Co-délégué régional pour un mouvement d'initiative citoyenne, dans la région Haut-de-France et correspondant presse.",
@@ -69,7 +69,7 @@ const cv = {
     datetraining:     "2019",
     titletraining:    "Développeur Web Javascript : Wild Code School de Lille",
     describetraining: "Apprentissage de Javascript, de Node.Js et de React.Js.",
-    describetraining2:"Conception de sites internets dans le cadre des projets professionnels, réalisés en équipe via l'intégration des méthodes agiles de gestion de projet.",
+    describetraining2:"Conception de sites internets dans le cadre des projets professionnels, réalisés en équipe via l'intégration des <b>méthodes Agiles<b> de gestion de projet.",
     titlepopover:     "Languages utilisés"
 }
 

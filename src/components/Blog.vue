@@ -117,11 +117,13 @@
       </div>
     </b-container>
     <Widget />
+    <FooterNetwork />
   </div>
 </template>
 
 <script>
 import Widget from "./Widget";
+import FooterNetwork from "./FooterNetwork.vue";
 import { blog } from "../lng/fr";
 import "../sass/blog.scss";
 import "../sass/main.scss";
@@ -129,7 +131,8 @@ import "../sass/main.scss";
 export default {
   name: "Blog",
   components: {
-    Widget
+    Widget,
+    FooterNetwork
   },
   data() {
     return {
