@@ -21,12 +21,11 @@
                 <p>{{ portfolio.project08desc }}</p>
                 <p>{{ portfolio.project08st }}</p>
               </b-card-text>
-              <b-button
-                class="btn-cv"
-                target="_parent"
-                ><router-link :to="{ name: 'Calc'}">{{ portfolio.seemore }}</router-link></b-button
-              > 
-              </b-card
+              <b-button class="btn-cv" target="_parent"
+                ><router-link :to="{ name: 'Calc' }">{{
+                  portfolio.seemore
+                }}</router-link></b-button
+              > </b-card
             >"
           </b-col>
 
@@ -193,15 +192,20 @@
         </b-row>
       </div>
     </b-container>
+    <FooterNetwork />
   </div>
 </template>
 
 <script>
 import { portfolio } from "../lng/fr";
+import FooterNetwork from "./FooterNetwork.vue";
 import "../sass/portfolio.scss";
 
 export default {
   name: "Portfolio",
+  components: {
+    FooterNetwork
+  },
   data() {
     return {
       portfolio,

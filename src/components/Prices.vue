@@ -1,4 +1,5 @@
 <template>
+<div>
   <b-container class="prices">
     <div class="board">
       <span class="board-title">{{ prices.titleJumbotron }}</span>
@@ -64,13 +65,19 @@
       <b-col><img class="validate" src="../assets/yes.png"/></b-col>
     </b-row>
   </b-container>
+    <FooterNetwork />
+    </div>
 </template>
 
 <script>
+import FooterNetwork from "./FooterNetwork.vue";
 import { prices } from "../lng/fr";
 import "../sass/prices.scss";
 export default {
   name: "Prices",
+    components: {
+    FooterNetwork
+  },
   data() {
     return {
       prices

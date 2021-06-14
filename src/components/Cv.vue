@@ -407,11 +407,13 @@
         </li>
       </ul>
     </b-container>
+        <FooterNetwork />
   </div>
 </template>
 
 <script>
 import { cv } from "../lng/fr";
+import FooterNetwork from "./FooterNetwork.vue";
 import "../sass/cv.scss";
 import "../sass/main.scss";
 
@@ -431,7 +433,9 @@ export default {
       ]
     };
   },
-  components: {},
+  components: {
+    FooterNetwork
+  },
   methods: {
   },
   mounted() {
