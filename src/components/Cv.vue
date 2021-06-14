@@ -54,7 +54,7 @@
           <h2>{{ cv.xp }}</h2>
         </b-col>
       </b-row>
-      <ul class="experiences_list">
+      <ul class="experiences_list"> <!-- xeno -->
         <li class="item_list">
           <span class="item_title">{{ cv.datexp01 }} {{ cv.titlexp01 }}</span>
           <br />
@@ -82,7 +82,7 @@
           </div>
         </li>
         <li class="item_list">
-          <span class="item_title">{{ cv.datexp02 }} {{ cv.titlexp02 }}</span>
+          <span class="item_title">{{ cv.datexp02 }} {{ cv.titlexp02 }}</span> <!-- xeno stage -->
           <br />
           <div class="item_describe">
             <div class="my-3">
@@ -113,7 +113,7 @@
           <span class="item_describe">{{ cv.describexp03 }}</span>
         </li>
         <li class="item_list">
-          <span class="item_title">{{ cv.datexp04 }} {{ cv.titlexp04 }}</span>
+          <span class="item_title">{{ cv.datexp04 }} {{ cv.titlexp04 }}</span> <!-- td -->
           <br />
           <div class="item_describe">
             <div class="my-3">
@@ -124,13 +124,12 @@
                 placement="top"
               >
                 <template #title>{{ cv.titlepopover }}</template>
-                <img src="../assets/php.png" title="PhP" alt="PhP" />&nbsp;
                 <img src="../assets/php.png" title="PhP" alt="PhP" />
               </b-popover>
             </div>
           </div>
         </li>
-        <li class="item_list">
+        <li class="item_list"> <!-- cours  -->
           <span class="item_title">{{ cv.datexp05 }} {{ cv.titlexp05 }}</span>
           <br />
           <span class="item_describe">{{ cv.describexp05 }}</span>
@@ -155,7 +154,7 @@
           <br />
           <span class="item_describe">{{ cv.describetraining }}</span>
           <br />
-          <span class="item_describe">{{ cv.describetraining2 }}</span>
+          <span class="item_describe" v-html="cv.describetraining2">{{ cv.describetraining2 }}</span> <!-- mes formations -->
         </li>
       </ul>
       <hr />
