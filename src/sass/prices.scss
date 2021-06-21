@@ -1,3 +1,32 @@
+#prices {
+    margin-top: 20px;
+    display: inline-flex;
+    .element {
+        display: block;
+        width: 300px;
+        height: 400px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 5px;
+        padding: 2px;
+        .title {
+            font-weight: bold;
+            font-size: x-large;
+        }
+        .price {
+            font-weight: bold;
+            font-size: x-large;
+            border-top: 5px solid #02a1cc;
+            border-bottom: 5px solid #02a1cc;
+    
+        }
+        .describe {
+            font-size: x-small;
+            font-style: italic;
+        }
+    }
+}
+
 .title {
     font-weight: bold;
     text-align: center;
@@ -13,9 +42,6 @@
     height: 30px;
 }
 
-.prices {
-    margin-top: 20px;
-}
 
 #title-row {
     border-bottom: 3px dotted grey;
@@ -25,13 +51,9 @@
     border-bottom: 1px solid grey;
 }
 
-.board {
-    height: auto;
-    background-color: white;
-    border-radius: 5px;
-    border: 2px dotted grey;
+
+.abo {
+    text-align: center;
 }
 
-.board-title {
-    font-weight: bold;
-}
+
