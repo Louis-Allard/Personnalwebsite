@@ -25,6 +25,17 @@
             font-style: italic;
         }
     }
+    .liste_items ul li {
+       text-align: left;
+      }      
+  .liste_items ul .li-yes {
+    display: list-item;
+    list-style-image: url('../assets/yes.png');
+  }  
+  .liste_items ul .li-no {
+    display: list-item;
+    list-style-image: url('../assets/no.png');
+  }    
 }
 
 .title {

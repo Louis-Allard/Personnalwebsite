@@ -69,26 +69,70 @@
         <b-col class="elements">{{ prices.el08 }}</b-col>
         <b-col class="abo">15</b-col>
       </b-row> 
-      -->    
+      -->
       <div class="element">
         <span class="title">{{ prices.title01 }}</span>
         <div class="price">{{ prices.price01 }}</div>
         <div class="describe">{{ prices.describe01 }}</div>
+        <div class="liste_items">
+          <ul>
+            <li class="li-yes">{{ prices.el01 }}</li>
+            <li class="li-yes">{{ prices.el02 }}</li>
+            <li class="li-no">{{ prices.el03 }}</li>
+            <li class="li-no">{{ prices.el04 }}</li>
+            <li class="li-no">{{ prices.el05 }}</li>
+            <li class="li-no">{{ prices.el06 }}</li>
+            <li class="li-no">{{ prices.el07 }}</li>
+          </ul>
+        </div>
       </div>
       <div class="element">
         <span class="title">{{ prices.title02 }}</span>
         <div class="price">{{ prices.price02 }}</div>
         <div class="describe">{{ prices.describe02 }}</div>
+        <div class="liste_items">
+          <ul>
+            <li class="li-yes">{{ prices.el01 }}</li>
+            <li class="li-yes">{{ prices.el02 }}</li>
+            <li class="li-no">{{ prices.el03 }}</li>
+            <li class="li-no">{{ prices.el04 }}</li>
+            <li class="li-no">{{ prices.el05 }}</li>
+            <li class="li-no">{{ prices.el06 }}</li>
+            <li class="li-yes">{{ prices.el07 }}</li>
+          </ul>
+        </div>
       </div>
       <div class="element">
         <span class="title">{{ prices.title03 }}</span>
         <div class="price">{{ prices.price03 }}</div>
         <div class="describe">{{ prices.describe03 }}</div>
+        <div class="liste_items">
+          <ul>
+            <li class="li-yes">{{ prices.el01 }}</li>
+            <li class="li-yes">{{ prices.el02 }}</li>
+            <li class="li-yes">{{ prices.el03 }}</li>
+            <li class="li-yes">{{ prices.el04 }}</li>
+            <li class="li-yes">{{ prices.el05 }}</li>
+            <li class="li-no">{{ prices.el06 }}</li>
+            <li class="li-yes">{{ prices.el07 }}</li>
+          </ul>
+        </div>
       </div>
       <div class="element">
         <span class="title">{{ prices.title04 }}</span>
         <div class="price">{{ prices.price04 }}</div>
         <div class="describe">{{ prices.describe04 }}</div>
+        <div class="liste_items">
+          <ul>
+            <li class="li-yes">{{ prices.el01 }}</li>
+            <li class="li-yes">{{ prices.el02 }}</li>
+            <li class="li-yes">{{ prices.el03 }}</li>
+            <li class="li-yes">{{ prices.el04 }}</li>
+            <li class="li-yes">{{ prices.el05 }}</li>
+            <li class="li-yes">{{ prices.el06 }}</li>
+            <li class="li-yes">{{ prices.el07 }}</li>
+          </ul>
+        </div>
       </div>
     </b-container>
 
