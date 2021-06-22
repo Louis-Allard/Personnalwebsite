@@ -94,11 +94,11 @@
           <ul>
             <li class="li-yes">{{ prices.el01 }}</li>
             <li class="li-yes">{{ prices.el02 }}</li>
-            <li class="li-no">{{ prices.el03 }}</li>
+            <li class="li-yes">{{ prices.el03 }}</li>
             <li class="li-no">{{ prices.el04 }}</li>
             <li class="li-no">{{ prices.el05 }}</li>
             <li class="li-no">{{ prices.el06 }}</li>
-            <li class="li-yes">{{ prices.el07 }}</li>
+            <li class="li-no">{{ prices.el07 }}</li>
           </ul>
         </div>
       </div>
@@ -113,8 +113,8 @@
             <li class="li-yes">{{ prices.el03 }}</li>
             <li class="li-yes">{{ prices.el04 }}</li>
             <li class="li-yes">{{ prices.el05 }}</li>
-            <li class="li-no">{{ prices.el06 }}</li>
-            <li class="li-yes">{{ prices.el07 }}</li>
+            <li class="li-yes">{{ prices.el06 }}</li>
+            <li class="li-no">{{ prices.el07 }}</li>
           </ul>
         </div>
       </div>
