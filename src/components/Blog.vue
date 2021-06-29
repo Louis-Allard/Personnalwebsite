@@ -139,5 +139,8 @@ export default {
       blog
     };
   },
+  mounted() {  
+    document.title = "Louis Allard - Mon blog";  
+  },    
 };
 </script>

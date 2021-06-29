@@ -72,6 +72,9 @@ export default {
       document.getElementById("screen").innerHTML = "Résultat";
     },
   },
+  mounted() {  
+    document.title = "Louis Allard - Calculatrice";  
+  },   
 };
 </script>
 

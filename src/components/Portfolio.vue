@@ -211,6 +211,9 @@ export default {
       portfolio,
       projects: []
     };
-  }
+  },
+  mounted() {  
+    document.title = "Louis Allard - Mes projets";  
+  },   
 };
 </script>

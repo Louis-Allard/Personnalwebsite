@@ -91,6 +91,8 @@ export default {
     };
   },
   methods: {},
-  mounted() {}
+  mounted() {  
+    document.title = "Louis Allard - Vos projets";  
+  }, 
 };
 </script>
