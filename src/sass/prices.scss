@@ -27,7 +27,9 @@
     .element:hover {
         border: 5px solid #e7e7;
         font-size: large;
+        cursor: pointer;
     }
+    
     .liste_items ul li {
         text-align: left;
         line-height: 30px;

@@ -128,7 +128,7 @@ const prices = {
     title03:          "Site shop",
     title04:          "Site shop +",
     title_abo:        "Offre de service (*optionnel)",
-    txt_abo:          "lorem ipsum sit amet",
+    txt_abo:          "9 euros/mois : Maintiens du site et des serveurs OU 15 euros/moi : précedent + gestion du site",
     price01:          "A partir de 1299 Euros",
     price02:          "A partir de 1900 Euros",
     price03:          "A partir de 2990 Euros",
