@@ -1,75 +1,6 @@
 <template>
   <div>
     <b-container id="prices">
-      <!--
-      <div class="board">
-        <span class="board-title">{{ prices.titleJumbotron }}</span>
-        <hr class="my-4" />
-        <p>
-          {{ prices.pJumbotron }}
-        </p>
-      </div>
-      <b-row id="title-row">
-        <b-col>&nbsp;</b-col>
-        <b-col class="title">{{ prices.title01 }}</b-col>
-        <b-col class="title">{{ prices.title02 }}</b-col>
-        <b-col class="title">{{ prices.title03 }}</b-col>
-        <b-col class="title">{{ prices.title04 }}</b-col>
-      </b-row>
-      <b-row class="row-price">
-        <b-col class="elements">{{ prices.el01 }}</b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-      </b-row>
-      <b-row class="row-price">
-        <b-col class="elements">{{ prices.el07 }}</b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-      </b-row>
-      <b-row class="row-price">
-        <b-col class="elements">{{ prices.el02 }}</b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-      </b-row>
-      <b-row class="row-price">
-        <b-col class="elements">{{ prices.el03 }}</b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-      </b-row>
-      <b-row class="row-price">
-        <b-col class="elements">{{ prices.el04 }}</b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-      </b-row>
-      <b-row class="row-price">
-        <b-col class="elements">{{ prices.el05 }}</b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-      </b-row>
-      <b-row class="row-price">
-        <b-col class="elements">{{ prices.el06 }}</b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/no.png"/></b-col>
-        <b-col><img class="validate" src="../assets/yes.png"/></b-col>
-      </b-row>
-      <b-row class="row-price">
-        <b-col class="elements">{{ prices.el08 }}</b-col>
-        <b-col class="abo">15</b-col>
-      </b-row> 
-      -->
       <div class="element">
         <span class="title">{{ prices.title01 }}</span>
         <div class="price">{{ prices.price01 }}</div>
@@ -135,7 +66,12 @@
         </div>
       </div>
     </b-container>
-
+<b-container>
+  <div class="element opt">
+   <span class="title">{{ prices.title_abo }}</span>
+   <span class="txt_abo">{{ prices.txt_abo }}</span>
+  </div>
+</b-container>
     <FooterNetwork />
   </div>
 </template>

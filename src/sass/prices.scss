@@ -3,11 +3,10 @@
     display: inline-flex;
     .element {
         display: block;
-        width: 300px;
+        width: 33%;
         height: 400px;
         border: 1px solid black;
         border-radius: 5px;
-        margin-left: 5px;
         padding: 2px;
         .title {
             font-weight: bold;
@@ -18,29 +17,45 @@
             font-size: x-large;
             border-top: 5px solid #02a1cc;
             border-bottom: 5px solid #02a1cc;
-    
         }
         .describe {
             font-size: x-small;
             font-style: italic;
         }
     }
+
+    .element:hover {
+        border: 5px solid #e7e7;
+        font-size: large;
+    }
     .liste_items ul li {
-       text-align: left;
-      }      
-  .liste_items ul .li-yes {
-    display: list-item;
-    list-style-image: url('../assets/yes.png');
-  }  
-  .liste_items ul .li-no {
-    display: list-item;
-    list-style-image: url('../assets/no.png');
-  }    
+        text-align: left;
+        line-height: 30px;
+    }
+    .liste_items ul .li-yes {
+        display: list-item;
+        list-style-image: url("../assets/yes.png");
+    }
+    .liste_items ul .li-no {
+        display: list-item;
+        list-style-image: url("../assets/no.png");
+    }
 }
 
 .title {
     font-weight: bold;
     text-align: center;
+}
+
+.opt {
+    font-size: small;
+    .title {
+        font-weight: bold;
+        text-align: center;
+    }
+    .txt_abo {
+        display: block;
+    }
 }
 
 .elements {
@@ -53,18 +68,13 @@
     height: 30px;
 }
 
-
-#title-row {
-    border-bottom: 3px dotted grey;
+.element {
+    display: block;
+    width: 99.5%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 2px;
 }
-
-.row-price {
-    border-bottom: 1px solid grey;
-}
-
-
-.abo {
-    text-align: center;
-}
-
-
