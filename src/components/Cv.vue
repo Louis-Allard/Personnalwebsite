@@ -438,7 +438,8 @@ export default {
   },
   methods: {
   },
-  mounted() {
-  }
+  mounted() {  
+    document.title = "Louis Allard - Mon cv";  
+  }, 
 };
 </script>
