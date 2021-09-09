@@ -49,10 +49,10 @@
 
 <script>
 import packageJson from "../../package";
-import axios from 'axios';
+//import axios from 'axios';
 import { footer } from "../lng/fr";
 import "../sass/footer.scss";
-const nodemailer = require("nodemailer");
+//const nodemailer = require("nodemailer");
 
 export default {
   name: "Footer",
@@ -69,6 +69,7 @@ export default {
 /** */
   methods: {
     send() {
+      /*
       const name = this.$refs.name.value;
       const firstname = this.$refs.firstname.value;
       const objmessage = this.$refs.objmessage.value;
@@ -112,6 +113,7 @@ export default {
         .catch(error => {
           console.error("!!! ERROR !!! ", error);
         });
+        */
     }
   },
   computed: {
