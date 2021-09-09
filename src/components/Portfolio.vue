@@ -10,6 +10,28 @@
         <b-row class="mb-4">
           <b-col class="mediasmall">
             <b-card
+              title="React World"
+              img-src="../assets/p_world.png"
+              img-alt="React World"
+              img-top
+              tag="article"
+              class="article"
+            >
+              <b-card-text>
+                <p>{{ portfolio.project09desc }}</p>
+                <p>{{ portfolio.project09st }}</p>
+              </b-card-text>
+              <b-button
+                class="btn-cv"
+                href="https://flamboyant-brattain-ba00b9.netlify.app/"
+                target="_blank"
+                >{{ portfolio.seemore }}</b-button
+              > </b-card
+            >"
+          </b-col>
+
+          <b-col class="mediasmall">
+            <b-card
               title="Calculatrice"
               img-src="../assets/p_calc.png"
               img-alt="Calculatrice"
@@ -50,7 +72,9 @@
               > </b-card
             >"
           </b-col>
-
+        </b-row>
+        <!-- -->
+        <b-row class="mb-4">
           <b-col class="mediasmall">
             <b-card
               title="MazeRunner"
@@ -70,11 +94,9 @@
                 target="_blank"
                 >Voir les sources</b-button
               > </b-card
-            >"
+            >
           </b-col>
-        </b-row>
-        <!-- -->
-        <b-row class="mb-4">
+
           <b-col class="mediasmall">
             <b-card
               title="Xeno"
@@ -119,7 +141,9 @@
               > </b-card
             >"
           </b-col>
-
+        </b-row>
+        <!-- -->
+        <b-row class="mb-4">
           <b-col class="mediasmall">
             <b-card
               title="Watcha"
@@ -140,11 +164,9 @@
                 target="_blank"
                 >{{ portfolio.seemore }}</b-button
               > </b-card
-            >"
+            >
           </b-col>
-        </b-row>
-        <!-- -->
-        <b-row class="mb-4">
+                    
           <b-col class="mediasmall">
             <b-card
               title="PongGame"

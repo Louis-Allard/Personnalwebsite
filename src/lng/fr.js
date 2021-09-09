@@ -91,7 +91,9 @@ const portfolio = {
     project07desc: "Ballons est un petit jeux qui consiste a gérer l'avancé de son personnage afin qu'il aille le plus loins piossible, tout en évitant les obstacles. Le jeux offre une difficultés évolutive.",
     project07st:   "Le jeux est créé en python.",
     project08desc: "J'ai codé cette simple calculatrice pour mon usage personnel. Simple mais efficace.",
-    project08st:   "Codé tout simplement en javascript vanilla et css."
+    project08st:   "Codé tout simplement en javascript vanilla et css.",
+    project09desc: "Une consommation d'API me permet de récupérer des drapeaux de pays avec quelques informations complémentaires. Un peu de JavaScript permet de trier l'affichage.",
+    project09st:   "Petit projet en ReactJS avec une consommation d'API."    
 }
 
 const blog = {
