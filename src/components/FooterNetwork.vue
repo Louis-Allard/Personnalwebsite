@@ -18,7 +18,7 @@
           <span>Mon Twitter: <a href="https://twitter.com/lallard_59" target="_blank"><img src="../assets/twitter.png" width="50px" /></a></span>
         </b-col>
         <b-col>
-          <span>Mon email: <img src="../assets/contact.png" width="50px"/> la.devweb@yahoo.com</span>
+          <span>Mon email: <img src="../assets/contact.png" width="50px"/>contac@louisallard.fr</span>
         </b-col>
         <div class="w-100"></div>
       </b-row>
